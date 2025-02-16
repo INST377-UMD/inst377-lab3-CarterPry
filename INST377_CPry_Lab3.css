@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible&display=swap');
+
+body {
+  font-family: 'Atkinson Hyperlegible', Arial, sans-serif;
+  background-color: #c78d8d;
+}
+
+
+
+
+.header-footer {
+  background-color: #4b2f4d;
+  color: #c78d8d;
+  text-align: center;
+  padding: 10px;
+}
+
+
+
+.nav {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+
+
+
+
+
+
+
+.nav li {
+  margin: 0 10px;
+}
+.nav a {
+  text-decoration: none;
+  color: rgb(113, 39, 39);
+}
+.nav a:hover {
+  color: rgb(71, 52, 52); 
+}
+
+
+
+
+.body-container {
+  display: flex;
+  margin: 10px;
+}
+
+
+
+
+.main-content {
+  width: 90%;
+  padding: 10px;
+}
+
+
+
+
+.sidebar {
+  width: 20%;
+  padding: 10px;
+  background-color: #4b2f4d;
+}
+.sidebar:hover {
+  background-color: #a971ad;
+}
+
+
+
+
+
+form input[type="text"] {
+  transition: width 0.3s;
+}
+
+form input[type="text"]:focus {
+  width: 200px;
+}
